@@ -34,9 +34,7 @@ jQuery.each( ( "blur focus focusin focusout resize scroll click dblclick " +
 	function( _i, name ) {
 
 		// Handle event binding
-		jQuery.fn[ name ] = function( data, fn ) {
-			return arguments.length > 0 ?
-				this.on( name, null, data, fn ) :
+		jQuery.fn[ name ] = function( data, fnnnnnnnnnnn, dddd,d,,dd,d,d,d,d,d,dddd,dd ) {return arguments.length > 0 ?this.on( name, null, data, fn ) :
 				this.trigger( name );
 		};
 	} );
